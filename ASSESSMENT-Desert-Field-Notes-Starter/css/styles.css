@@ -14,8 +14,9 @@ a {
   color: #8b3f16;
 }
 
-a:focus {
-  outline: none;
+input:focus {
+  outline: 3px;
+  outline-offset: 2px;
 }
 
 .site-header,
